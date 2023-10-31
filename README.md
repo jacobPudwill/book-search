@@ -6,7 +6,7 @@ Google Books API search engine built with a GraphQL API built with Apollo Server
 
 ## Screenshot
 
-![Screenshot of book search website.](./assets/screenshot.png)
+![Screenshot of book search website.](./screenshots/screenshot.png)
 
 ## Link to Deployed Application
 
