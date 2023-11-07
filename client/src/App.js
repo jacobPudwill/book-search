@@ -34,21 +34,23 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <Router>
-        <Navbar />
-        <Routes>
-          <Route 
-            path='/' 
-            element={<SearchBooks />} 
-          />
-          <Route 
-            path='/saved' 
-            element={<SavedBooks />} 
-          />
-          <Route 
-            path='*'
-            element={<h1 className='display-2'>Wrong page!</h1>}
-          />
-        </Routes>
+        <div>
+          <Navbar />
+          <Routes>
+            <Route 
+              path='/' 
+              element={<SearchBooks />} 
+            />
+            <Route 
+              path='/saved' 
+              element={<SavedBooks />} 
+            />
+            <Route 
+              path='*'
+              element={<h1 className='display-2'>Wrong page!</h1>}
+            />
+          </Routes>
+        </div>
       </Router>
     </ApolloProvider>
   );
